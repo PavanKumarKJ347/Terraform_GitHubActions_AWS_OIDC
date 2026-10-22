@@ -1,4 +1,3 @@
-
 # AWS Infrastructure Using Terraform and GitHub Actions
 
 ## This Repository Provisions AWS Infrastructure Using Terraform and Automates Deployments Through GitHub Actions.
