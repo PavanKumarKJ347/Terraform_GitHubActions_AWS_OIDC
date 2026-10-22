@@ -1,8 +1,8 @@
 
 # AWS Infrastructure Using Terraform and GitHub Actions
 
-This Repository Provisions AWS Infrastructure Using Terraform and Automates Deployments Through GitHub Actions.
-GitHub Actions Authenticates With AWS Using **OIDC [OpenID Connect]**, Eliminating the Need for Long Lived AWS Access Keys.
+## This Repository Provisions AWS Infrastructure Using Terraform and Automates Deployments Through GitHub Actions.
+## GitHub Actions Authenticates With AWS Using **OIDC [OpenID Connect]**, Eliminating the Need for Long Lived AWS Access Keys.
 
 ## Architecture
 
@@ -14,10 +14,10 @@ GitHub Actions Authenticates With AWS Using **OIDC [OpenID Connect]**, Eliminati
 
 ## Workflow
 
-**1. Developer Pushes Code to GitHub.**
-2. GitHub Actions Runs Terraform `init`, `validate`, and `plan`.
-3. GitHub Actions Authenticates to AWS Using OIDC.
-4. Terraform Applies Infrastructure Changes After Approval.
+**1. Developer Pushes Code to GitHub.**<br>
+**2. GitHub Actions Runs Terraform `init`, `validate`, and `plan`.**<br>
+**3. GitHub Actions Authenticates to AWS Using OIDC.**<br>
+**4. Terraform Applies Infrastructure Changes After Approval.**<br>
 
 ## Prerequisites
 
