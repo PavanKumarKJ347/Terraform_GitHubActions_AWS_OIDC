@@ -33,11 +33,4 @@
 **Configure Terraform Files for AWS Infrastructure.**<br>
 **Push Changes to Trigger the GitHub Actions Workflow.**<br>
 
-## Security
-
-**No Long Lived AWS Access Keys Stored in GitHub.**<br>
-**Follow the Principle of Least Privilege for IAM Permissions.**<br>
-**Restrict OIDC Trust to the Intended Repository and Branch.**<br>
-**Use GitHub Environment Approvals for Production Deployments.**<br>
-
 ## GitHub Actions Should be able to Authenticate With AWS Cloud Using OpenID Connect.
